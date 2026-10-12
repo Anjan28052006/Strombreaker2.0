@@ -38,7 +38,7 @@ app.get("/health", (req, res) => {
   });
 });
 
-// Mount API v1 routes
+
 app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/accounts", accountsRoutes);
 app.use("/api/v1/transactions", transactionsRoutes);
