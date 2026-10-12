@@ -8,7 +8,7 @@ const notFound = require("./src/middleware/notFound");
 const { startExpireTransactionsJob } = require("./src/jobs/expireTransactions");
 const { startExpireMoneyRequestsJob } = require("./src/jobs/expireMoneyRequests");
 
-// Route imports
+
 const authRoutes = require("./src/routes/auth.routes");
 const accountsRoutes = require("./src/routes/accounts.routes");
 const transactionsRoutes = require("./src/routes/transactions.routes");
